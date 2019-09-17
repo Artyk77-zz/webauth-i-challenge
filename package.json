@@ -1,0 +1,25 @@
+{
+  "name": "webauth-i-challenge",
+  "version": "1.0.0",
+  "description": "Authentication Challenge",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artyk77/webauth-i-challenge.git"
+  },
+  "author": "Jose Restrepo",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.0",
+    "knex": "^0.19.4",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
